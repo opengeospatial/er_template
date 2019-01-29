@@ -132,10 +132,46 @@ As shown in line 2, the value of "id" is "File".
 Is available e.g. here: http://asciidoctor.org/docs/
 
 === Citations
-Please use the following syntax to insert citations:
+Please use the following syntax to insert citations anywhere in the text:
 
-cite:[VanZyl2009]  cite:[Pross2018] cite:[OGCTechTrends2018]
+----
+cite:[VanZyl2009]
+----
 
-Then you need to provide all citation information in the file resources/bibtex-file.bib. Everything else is done automatically.
+or, if it is more than one citation that should be added at the same location, use
+
+----
+cite:[Pross2018,OGCTechTrends2018]
+----
+
+which will create links in the compiled HTML/PDF that look as follows: cite:[VanZyl2009], of for the second example given above, it results in cite:[Pross2018,OGCTechTrends2018]
+
+
+Then you need to provide all citation information in the file resources/bibtex-file.bib. This file uses the bibtex file format, which is defined in full detail http://www.bibtex.org/Format/[here]. The bibtex-style file shall remain untouched.
+
+The conversion of _cite:[]_ takes place at the time of asciidoc-to-pdf/html conversion and requires two things:
+
+. The definition of the _bibtex-file_ and the _bibtex-style_ attributes. This is done in this template in file <<bibtexAttributes,er.adoc>>. Please make sure that both files are available at their defined locations.
+
+----
+Examples of bibtex attributes as set in file er.adoc
+
+:bibtex-file: resources/bibtex-file.bib
+:bibtex-style: resources/lncs.csl
+----
+
+[arabic, start=2]
+. Adding a flag to the asciidoctor conversion command
+
+----
+asciidoctor -r asciidoctor-bibtex er.adoc
+----
+
+A full conversion command could look as in the following example:
+
+====
+asciidoctor -r asciidoctor-bibtex -a linkcss -a s
+tylesheet=rocket-panda.css -a stylesdir=./resources/stylesheets er.adoc
+====
 
 For further information, please consult https://github.com/asciidoctor/asciidoctor-bibtex.
