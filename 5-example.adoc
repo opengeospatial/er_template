@@ -14,8 +14,8 @@ All headlines are marked by "=" signs. The top level in each each file starts wi
 If you want to reference a figure by using a figure number, it is important to use the following syntax. The figure identifier for <<img_mindMap>> is the first statement of the header. Please adapt the width as appropriate.
 
 [#img_mindMap,reftext='{figure-caption} {counter:figure-num}']
-.High-Level Mind Map of Testbed-14
-image::images/placeholder.png[width=800,align="center"]
+.This is an example figure
+image::images/placeholder.png[width=600,align="center"]
 
 It is important that you use the same syntax for all images, otherwise the automatic numbering is corrupted!
 
