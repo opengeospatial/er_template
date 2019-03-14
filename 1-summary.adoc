@@ -27,9 +27,9 @@ All questions regarding this document should be directed to the editor or the co
 *Contacts*
 [width="80%",options="header",caption=""]
 |====================
-|Name |Organization
-|((editor)) | (( from org ))
-|((contributor)) | ((from org))
+|Name |Organization | Role
+|((Full Name)) | (( from org )) | ((Editor/Contributor))
+|((Full Name)) | ((from org)) |((Editor/Contributor))
 |====================
 
 
