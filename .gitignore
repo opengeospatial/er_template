@@ -1,4 +1,6 @@
-.DS_Store
+# compiled documents
+*.html
+*.pdf
 
-er.html
-er.pdf
+# mac
+.DS_Store
