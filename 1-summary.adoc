@@ -1,9 +1,12 @@
+== Subject
+(( The following is, as all texts in double parentheses, a helper text. Please remove this and all other helper texts once done. ))
+
+(( The Subject clause shall define without ambiguity the topic of this document and the aspect(s) covered. It shall be succinct so that it can be used as a text for bibliographic purposes. ))
+
+(( This section shall be between 1-2 sentences and not longer than 50 words total.))
+
 == Summary
-(( A The following is, as all texts in double square brackets, a helper text. Please remove this and all other helper texts once done. ))
-
-(( The Summary clause shall define without ambiguity the subject of this document and the aspect(s) covered. It shall be succinct so that it can be used as a text for bibliographic purposes. Briefly, it shall contain the key results of the work described in the ER. ))
-
-(( The summary shall further contain a business value statement that should describe the value of this Engineering Report to improve interoperability, advance location-based technologies or realize innovations. ))
+(( The Summary clause shall contain brief abstract of this Engineering Report, only enough to help the reader ascertain the document's objective.  The summary shall include a business value statement that should describe the value of this Engineering Report to improve interoperability, advance location-based technologies or realize innovations. Briefly, it shall contain the key results of the work described in the ER. ))
 
 (( The summary shall contain the key findings in a concise form. A more detailed description of the findings should be in the body of the report. ))
 
