@@ -93,6 +93,8 @@
 [[bibtexAttributes]]
 :bibtex-file: resources/bibtex-file.bib
 :bibtex-style: resources/lncs.csl
+:sectnums:
+:sectnumlevels: 5
 
 = {title}
 
