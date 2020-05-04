@@ -33,11 +33,15 @@
 
 // *****************************************************************************
 // Provide the document title (ER or user guide name) after the colon.
-// Do not alter the testbed-number prefix.
+// The <initiative_title> will be provided by the initiative manager to ensure
+//    consistent use throughout an initiative. Same applies for the short name
 // The title here should match the title on the first page.
 // *****************************************************************************
 
 :title: <initiative_title>:
+
+:initiative_short_name: <initiative_short_name>
+
 
 // *****************************************************************************
 // Document identifier, with format "OGC YY-nnn" (e.g., OGC 17-067).
@@ -77,7 +81,7 @@
 :publicationDate: YYYY-MM-DD
 :approvalDate: YYYY-MM-DD
 :referenceURLID: ID
-:copyrightYear: 2018
+:copyrightYear: 2020
 //
 :titletext: {title}
 :doctype: book
@@ -94,7 +98,7 @@
 :bibtex-file: resources/bibtex-file.bib
 :bibtex-style: resources/lncs.csl
 :sectnums:
-:sectnumlevels: 5
+:sectnumlevels: 3
 
 = {title}
 
@@ -106,7 +110,7 @@ Submission Date: {submissionDate}
 
 Reference number of this document: {docReference}
 
-Reference URL for this document: http://www.opengis.net/doc/PER/t14-{referenceURLID}
+Reference URL for this document: http://www.opengis.net/doc/PER/{initiative_short_name}-{referenceURLID}
 
 Category: {category}
 
