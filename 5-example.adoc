@@ -7,6 +7,13 @@
 This section explains some concepts frequently required by Asciidoc novices. Please use this file as a template for your own clauses.
 ===============================================
 
+[IMPORTANT]
+====
+Starting with Testbed-17, endnote citations for URLs in ERs should be avoided. Instead, the URL should be inserted inline as in https://www.ogc.org/[this example]. An endnote citation may be added, but the inline link is mandatory.
+
+See <<UseOfCitations, Use of Citations>> for full citation instructions.
+====
+
 === Headlines
 All headlines are marked by "=" signs. The top level in each each file starts with level 2 ("=="). Important: For whatever strange reason, headings in annexes are marked differently.
 
@@ -131,7 +138,11 @@ As shown in line 2, the value of "id" is "File".
 === Asciidoc(tor) Syntax Help
 Is available e.g. here: http://asciidoctor.org/docs/
 
-=== Citations
+[[UseOfCitations]]
+=== Use of Citations
+
+Starting with Testbed-17, endnote citations for URLs in ERs should be avoided. Instead, the URL should be inserted inline as in https://www.ogc.org/[this example]. An endnote citation may be added, but the inline link is mandatory.
+
 Please use the following syntax to insert citations anywhere in the text:
 
 ----
