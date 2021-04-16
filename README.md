@@ -37,4 +37,4 @@ Command for HTML output:
 asciidoctor -a stylesheet=rocket-panda.css -a stylesdir=./resources/stylesheets -r asciidoctor-bibtex er.adoc
 
 =============
-This [User Guide](http://www.methods.co.nz/asciidoc/userguide.html) might provide additional help to authors.
+This [User Guide](https://asciidoc.org/userguide.html) might provide additional help to authors.
